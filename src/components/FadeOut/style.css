@@ -1,0 +1,24 @@
+.fade-out {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  background-color: #ff4e00;
+  animation: fadeout-effect 3s ease 0s;
+}
+
+.fadeOut-gif {
+  height: 300px;
+  width: 300px;
+  animation: fadeout-effect 3s ease 0s;
+}
+
+@keyframes fadeout-effect {
+  from {
+    opacity: 1;
+    left: 0px;
+  }
+  to {
+    opacity: 0;
+    left: -200px;
+  }
+}

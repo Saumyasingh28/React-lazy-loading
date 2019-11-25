@@ -1,0 +1,80 @@
+.wrapper {
+  height: 400px;
+  width: 100vw;
+  background-color: #eae9ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code {
+  height: 300px;
+  width: 300px;
+  background-color: #bcbbbd;
+  color: #201c1d;
+  margin-left: 20px;
+}
+
+.no-effect {
+  height: 300px;
+  width: 300px;
+  background-color: #77cc6d;
+}
+
+.bounce {
+  height: 300px;
+  width: 300px;
+  background-color: #77cc6d;
+  animation: bounce-effect 2s ease 0s;
+}
+
+@keyframes bounce-effect {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  5% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  15% {
+    transform: translateY(0);
+    padding-bottom: 5px;
+  }
+  30% {
+    transform: translateY(-50%);
+  }
+  40% {
+    transform: translateY(0%);
+    padding-bottom: 6px;
+  }
+  50% {
+    transform: translateY(-30%);
+  }
+  70% {
+    transform: translateY(0%);
+    padding-bottom: 7px;
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+    padding-bottom: 8px;
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+    padding-bottom: 9px;
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
+}

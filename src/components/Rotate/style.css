@@ -1,0 +1,18 @@
+.rotate {
+  height: 300px;
+  width: 300px;
+  color: floralwhite;
+  background-color: rgb(45, 8, 105);
+  animation: rotate-effect 3s ease 0s;
+}
+.rotate-gif {
+  height: 300px;
+  width: 300px;
+  animation: rotate-effect 3s ease 0s;
+}
+
+@keyframes rotate-effect {
+  100% {
+    transform: rotate(360deg);
+  }
+}

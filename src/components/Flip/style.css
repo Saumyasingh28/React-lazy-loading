@@ -1,0 +1,19 @@
+.flip {
+  height: 300px;
+  width: 300px;
+  color: floralwhite;
+  background-color: #77cc6d;
+  animation: flip-effect 5s ease 0s;
+}
+
+.flip-gif {
+  height: 300px;
+  width: 300px;
+  animation: flip-effect 5s ease 0s;
+}
+
+@keyframes flip-effect {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
